@@ -1,9 +1,9 @@
 const form = document.querySelector('form');
 const searchInput = document.querySelector('#search');
 const resultsSection = document.querySelector('#results');
-const API_KEY = "./my-project-imagehunt-6df2d14a2ef0.json";
-const CX = "b3830745883e44e73";
-const GOOGLE_API_URL = `https://www.googleapis.com/customsearch/v1?searchType=image&key=${API_KEY}&cx=${CX}&q=`;
+const API_KEY = "./your_API_KEY";
+const CX = "your_CX";
+const GOOGLE_API_URL = `https://your_GOOGLE_API_URL`;
 
 let currentPage = 1;
 let totalPages = 0;
