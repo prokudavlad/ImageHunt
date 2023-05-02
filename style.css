@@ -1,0 +1,97 @@
+/* Установка стилей для body и заголовка /
+body {
+font-family: sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f8f8f8; / добавлено */
+}
+
+h1 {
+font-size: 2rem;
+margin: 0;
+padding: 1rem;
+text-align: center;
+background-color: #333;
+color: white;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* добавлено */
+}
+
+/* Установка стилей для формы поиска */
+form {
+display: flex;
+justify-content: center;
+margin: 2rem;
+}
+
+label {
+font-size: 1.5rem;
+margin-right: 1rem;
+}
+
+input[type="text"] {
+font-size: 1.5rem;
+padding: 0.5rem;
+width: 40%;
+border-radius: 5px;
+border: 1px solid #333;
+}
+
+button[type="submit"] {
+font-size: 1.5rem;
+padding: 0.5rem 1rem;
+background-color: #333;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+background-color: #555;
+}
+
+/* Установка стилей для секции результатов поиска */
+#results {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+grid-gap: 1rem;
+margin: 2rem;
+}
+
+/* Установка стилей для изображений */
+img {
+width: 100%;
+height: auto;
+object-fit: cover;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* добавлено */
+@media screen and (max-width: 768px) {
+h1 {
+font-size: 1.5rem;
+padding: 0.5rem;
+}
+form {
+margin: 1rem;
+}
+label {
+font-size: 1rem;
+}
+input[type="text"] {
+font-size: 1rem;
+width: 60%;
+}
+button[type="submit"] {
+font-size: 1rem;
+padding: 0.5rem;
+}
+#results {
+margin: 1rem;
+}
+img {
+border-radius: 0;
+}
+}
