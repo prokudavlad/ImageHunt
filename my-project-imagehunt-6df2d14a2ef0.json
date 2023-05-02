@@ -1,12 +1,12 @@
 {
   "type": "service_account",
-  "project_id": "my-project-imagehunt",
-  "private_key_id": "6df2d14a2ef0e30aa7a6b31edab73117fa732ce2",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCgXYck0OvksA8A\n8E6gBoelTRH1+PH7oGh+wQUvT4RKhqoWbhrUFoePJbBftKCT/ZoPrkw8+A09Hdh3\n5tpLi2FEKzjrDzjKx9q/RcMGViLmwLL29k7y/+AWkUhf03E2T51r1bpFwfTWkYSZ\n+hUf1wga9VAodfAVKRFmsG+LIK7fp6UZg2ChSSn+qUPknPq0xu2+CBIAihrLN7BC\n2SSIPDRMZG3HDpFVLlhwz8Embw3GNfH1bdrv+3gTcD7p5myu1e5CxsIxRl4a19/h\nvsUoaC8sXwLKLEA5OYR5mv7wWdz0v54t2NXPotR7olj/Tx/gVYMOE5Uq8HTSbNa+\n/8B3yG7tAgMBAAECggEAPiwEeQGGcuLO7k48LU5ayHtYu0QIjMVjvcCXggASCdKr\nnoaRYChb5eN2vaQJnVZ0pB+u7vQ8LbWkdtfJSgB/dS5MotUD75oL9JvXQF2kqlGL\nELPtZ8hL2HP62yveeG/lWClETkcj5QwFnKyYBAAZ5Fm2+fi/W3TQij9c/1NseMio\nMKNoWV+y7Y/H8hfPenLyVowyfp+EFFYk6StrQ27gWb0WeIOUGCb0MyzwIsyu4Xmx\nMLMnicpH/hqbNn3uznSY7bUnzuJV8Eu8LE1CGxs6C22O7ief++NI+QXWKDAF9Ges\nRmQSAmt78EIysWo/MPqC8DIA3EszTmYKZ67vzslLAQKBgQDeU7hM1K07Xj4cV5ew\nC4d71IZaaALL+7gmBUVqjtYyeG7nG3kqNuqggAHYBmwT5iIVIrM3og8u1Nnq9W13\neB/GLKMrLpqDjJ8FSVjTpwW56WVAvYEk5o3GoRnGmcbpSQHvWz5WAffCBL55B6av\nd3xzNEBD55PUH4EnI5/r8Wl9PwKBgQC4p15+OsuGrKSmkJHZoXxAzxVLJ4Av+xU1\nxh4pDw89EOwDOnmMPUQ9KJI63FX7WEDQJObjLIjNWfdxcfZTPCiKZpoF4a6096LN\nx2BRLee53qCBSWDO39tpFkKEnCdxsRWyOkHpKzHcBMXcOSPCB4qDfbmsr5KjBTRN\ndBs9p/jM0wKBgCz9aBg0GXIgGhWGLC31x07prN5ymc5Je/RFsMxlZzcDY/3kc1p1\njnk4LidW9Vv5gAAi631gkA38CLUhQSuh5VwnAEXmwmHIfQ2G0DDUZbY/Yrv9HTso\nZJxDUYH88GGY4olbP3wMHeTnLNw1DigH1+lAM5kKLcIJNguDjAMk8SHlAoGBALNp\nw7FIdUpEYrKIU34unmjmDJ16It37yu71sYZZYIgH8hls7n6pZK07x2EzhsNxS4Ax\n6rieI8nK+Vab0SeskwNuj4bZcgPZfLEOYHJf9QAu5KrZ3hsDfM9NVpI8m0KnOhpy\n6mmgk5BgftLsHec/poD+XrL/4K1OuDPtdS5iD6cLAoGASPkgPXYkhop1T5TqdQCV\nHIDgwurCN24ZvYbh8TKdu9owbaR+niGTob5IfNQ2WajnQYREM+3HY4unorb2j5TU\np3l+PFJayTahQ2H9zmQeuqtFUGaJ9HrLYpxfGae2OFDL+bv47Cecq3ZMNiw4aPG0\naNszL1Av7YItwGi78/pUOC4=\n-----END PRIVATE KEY-----\n",
-  "client_email": "my-custom-search-api-service-a@my-project-imagehunt.iam.gserviceaccount.com",
-  "client_id": "102813634349465041256",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/my-custom-search-api-service-a%40my-project-imagehunt.iam.gserviceaccount.com"
+  "project_id": "you-project-name",
+  "private_key_id": "your_private_key_id",
+  "private_key": "-----BEGIN PRIVATE KEY-----\yor_private_key\n-----END PRIVATE KEY-----\n",
+  "client_email": "your_client_email",
+  "client_id": "your_client_id",
+  "auth_uri": "your_auth_uri",
+  "token_uri": "your_token_uri",
+  "auth_provider_x509_cert_url": "your_auth_provider_x509_cert_url",
+  "client_x509_cert_url": "your_client_x509_cert_url"
 }
