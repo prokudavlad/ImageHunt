@@ -1,7 +1,7 @@
 const form = document.querySelector('form');
 const searchInput = document.querySelector('#search');
 const resultsSection = document.querySelector('#results');
-const API_KEY = "./your_API_KEY";
+const API_KEY = "your_API_KEY";
 const CX = "your_CX";
 const GOOGLE_API_URL = `https://your_GOOGLE_API_URL`;
 
