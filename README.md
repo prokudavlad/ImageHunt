@@ -31,8 +31,8 @@ ___
 
 ![ImageHunt](imagehunt.png)
 
-___
-Реалізація додатку через платформу [Google Cloud Platform](https://console.cloud.google.com/)
+
+### Реалізація додатку через платформу [Google Cloud Platform](https://console.cloud.google.com/)
 
 ## Створеня проекту та налаштування ***Custom Search API*** у ***Google Console*** та створеня ***API-key*** та ***CX***
 
